@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8DF9AE12BFF990500E2F634 /* FolhetosDeForroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AE02BFF990500E2F634 /* FolhetosDeForroApp.swift */; };
+		F8DF9AE32BFF990500E2F634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AE22BFF990500E2F634 /* ContentView.swift */; };
+		F8DF9AE52BFF990600E2F634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DF9AE42BFF990600E2F634 /* Assets.xcassets */; };
+		F8DF9AE82BFF990600E2F634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DF9AE72BFF990600E2F634 /* Preview Assets.xcassets */; };
+		F8DF9AEA2BFF990600E2F634 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AE92BFF990600E2F634 /* Persistence.swift */; };
+		F8DF9AED2BFF990600E2F634 /* FolhetosDeForro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AEB2BFF990600E2F634 /* FolhetosDeForro.xcdatamodeld */; };
+		F8DF9AF42BFF9BC000E2F634 /* CordelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AF32BFF9BC000E2F634 /* CordelListView.swift */; };
+		F8DF9AF62BFF9BD300E2F634 /* CordelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AF52BFF9BD300E2F634 /* CordelDetailView.swift */; };
+		F8DF9AF82BFF9BE100E2F634 /* CordelFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AF72BFF9BE100E2F634 /* CordelFormView.swift */; };
+		F8DF9AFA2BFF9ED900E2F634 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AF92BFF9ED900E2F634 /* ImagePicker.swift */; };
+		F8DF9AFC2BFFA44E00E2F634 /* CordelEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF9AFB2BFFA44E00E2F634 /* CordelEditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8DF9ADD2BFF990500E2F634 /* FolhetosDeForro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolhetosDeForro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DF9AE02BFF990500E2F634 /* FolhetosDeForroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolhetosDeForroApp.swift; sourceTree = "<group>"; };
+		F8DF9AE22BFF990500E2F634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8DF9AE42BFF990600E2F634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8DF9AE72BFF990600E2F634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8DF9AE92BFF990600E2F634 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F8DF9AEC2BFF990600E2F634 /* FolhetosDeForro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolhetosDeForro.xcdatamodel; sourceTree = "<group>"; };
+		F8DF9AF32BFF9BC000E2F634 /* CordelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordelListView.swift; sourceTree = "<group>"; };
+		F8DF9AF52BFF9BD300E2F634 /* CordelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordelDetailView.swift; sourceTree = "<group>"; };
+		F8DF9AF72BFF9BE100E2F634 /* CordelFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordelFormView.swift; sourceTree = "<group>"; };
+		F8DF9AF92BFF9ED900E2F634 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F8DF9AFB2BFFA44E00E2F634 /* CordelEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordelEditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8DF9ADA2BFF990500E2F634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8DF9AD42BFF990500E2F634 = {
+			isa = PBXGroup;
+			children = (
+				F8DF9ADF2BFF990500E2F634 /* FolhetosDeForro */,
+				F8DF9ADE2BFF990500E2F634 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8DF9ADE2BFF990500E2F634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF9ADD2BFF990500E2F634 /* FolhetosDeForro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8DF9ADF2BFF990500E2F634 /* FolhetosDeForro */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF9AFF2BFFBF2C00E2F634 /* Components */,
+				F8DF9AE02BFF990500E2F634 /* FolhetosDeForroApp.swift */,
+				F8DF9AE22BFF990500E2F634 /* ContentView.swift */,
+				F8DF9AFE2BFFBEB100E2F634 /* Views */,
+				F8DF9AE42BFF990600E2F634 /* Assets.xcassets */,
+				F8DF9AE92BFF990600E2F634 /* Persistence.swift */,
+				F8DF9AEB2BFF990600E2F634 /* FolhetosDeForro.xcdatamodeld */,
+				F8DF9AE62BFF990600E2F634 /* Preview Content */,
+			);
+			path = FolhetosDeForro;
+			sourceTree = "<group>";
+		};
+		F8DF9AE62BFF990600E2F634 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF9AE72BFF990600E2F634 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8DF9AFE2BFFBEB100E2F634 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF9AF52BFF9BD300E2F634 /* CordelDetailView.swift */,
+				F8DF9AFB2BFFA44E00E2F634 /* CordelEditView.swift */,
+				F8DF9AF32BFF9BC000E2F634 /* CordelListView.swift */,
+				F8DF9AF72BFF9BE100E2F634 /* CordelFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8DF9AFF2BFFBF2C00E2F634 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF9AF92BFF9ED900E2F634 /* ImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8DF9ADC2BFF990500E2F634 /* FolhetosDeForro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DF9AF02BFF990600E2F634 /* Build configuration list for PBXNativeTarget "FolhetosDeForro" */;
+			buildPhases = (
+				F8DF9AD92BFF990500E2F634 /* Sources */,
+				F8DF9ADA2BFF990500E2F634 /* Frameworks */,
+				F8DF9ADB2BFF990500E2F634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolhetosDeForro;
+			productName = FolhetosDeForro;
+			productReference = F8DF9ADD2BFF990500E2F634 /* FolhetosDeForro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8DF9AD52BFF990500E2F634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F8DF9ADC2BFF990500E2F634 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = F8DF9AD82BFF990500E2F634 /* Build configuration list for PBXProject "FolhetosDeForro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8DF9AD42BFF990500E2F634;
+			productRefGroup = F8DF9ADE2BFF990500E2F634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8DF9ADC2BFF990500E2F634 /* FolhetosDeForro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8DF9ADB2BFF990500E2F634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DF9AE82BFF990600E2F634 /* Preview Assets.xcassets in Resources */,
+				F8DF9AE52BFF990600E2F634 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8DF9AD92BFF990500E2F634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DF9AEA2BFF990600E2F634 /* Persistence.swift in Sources */,
+				F8DF9AFC2BFFA44E00E2F634 /* CordelEditView.swift in Sources */,
+				F8DF9AF42BFF9BC000E2F634 /* CordelListView.swift in Sources */,
+				F8DF9AED2BFF990600E2F634 /* FolhetosDeForro.xcdatamodeld in Sources */,
+				F8DF9AF82BFF9BE100E2F634 /* CordelFormView.swift in Sources */,
+				F8DF9AE32BFF990500E2F634 /* ContentView.swift in Sources */,
+				F8DF9AFA2BFF9ED900E2F634 /* ImagePicker.swift in Sources */,
+				F8DF9AF62BFF9BD300E2F634 /* CordelDetailView.swift in Sources */,
+				F8DF9AE12BFF990500E2F634 /* FolhetosDeForroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8DF9AEE2BFF990600E2F634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8DF9AEF2BFF990600E2F634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8DF9AF12BFF990600E2F634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FolhetosDeForro/Preview Content\"";
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.FolhetosDeForro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8DF9AF22BFF990600E2F634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FolhetosDeForro/Preview Content\"";
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.FolhetosDeForro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8DF9AD82BFF990500E2F634 /* Build configuration list for PBXProject "FolhetosDeForro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DF9AEE2BFF990600E2F634 /* Debug */,
+				F8DF9AEF2BFF990600E2F634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DF9AF02BFF990600E2F634 /* Build configuration list for PBXNativeTarget "FolhetosDeForro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DF9AF12BFF990600E2F634 /* Debug */,
+				F8DF9AF22BFF990600E2F634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8DF9AEB2BFF990600E2F634 /* FolhetosDeForro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8DF9AEC2BFF990600E2F634 /* FolhetosDeForro.xcdatamodel */,
+			);
+			currentVersion = F8DF9AEC2BFF990600E2F634 /* FolhetosDeForro.xcdatamodel */;
+			path = FolhetosDeForro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8DF9AD52BFF990500E2F634 /* Project object */;
+}
